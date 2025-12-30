@@ -1,0 +1,58 @@
+将本地上传到库
+git add .
+git commit -am "J9"
+git push --force origin main
+git push origin main
+
+删除库里某一个文件
+git rm -r --cached .idea venv __pycache__
+git commit -m "J9"
+git push origin main
+
+
+
+
+将仓库覆盖本地
+git fetch origin
+git pull origin main
+
+
+
+
+创建虚拟环境
+python -m venv venv
+
+以管理员身份运行PowerShell，然后执行：
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+激活虚拟环境
+.\venv\Scripts\activate
+
+安装安装依赖
+pip install -r requirements.txt
+
+
+
+
+创建安装依赖
+pip freeze > requirements.txt
+
+
+
+
+python dyno.py 3
+
+cd C:\Users\J9-4\Desktop\dyno
+& .\venv\Scripts\Activate.ps1
+python dyno.py 12
+
+cd C:\Users\J9-4\Desktop\axie
+deactivate
+python axie_quest.py
+
+
+
+
+Qq953724992
+
+

@@ -1,0 +1,15 @@
+requests
+selenium
+psutil
+opencv-python
+numpy
+pynput
+pyperclip
+schedule
+pyautogui
+Pillow
+tqdm
+beautifulsoup4
+pytimeparse
+lxml
+

@@ -1,0 +1,30 @@
+{
+    "run_scheduler": true,
+    "run_duration": 30,
+    "gpm_api_port": 19995,
+    "process_limit": {
+        "dyno": 2 
+    },
+    "clay": false,
+    "sand": false,
+    "copper": false,
+     
+    "exclude_accounts": [],
+
+    "accounts": {
+        "1": {"user_id": "0350046c-cd62-4136-98cf-c59b0d405d64", "delay_minutes": 64},
+        "2": {"user_id": "d6647f81-9503-4934-86e1-275c4bad215f", "delay_minutes": 60},
+        "3": {"user_id": "c034d162-19df-47ce-a516-b3abd44d823c", "delay_minutes": 60},
+        "4": {"user_id": "22ab709e-caaa-4c09-8ccb-f6e5c8309cc1", "delay_minutes": 60},
+
+        "11": {"user_id": "36f90ca8-1bb3-48c8-828b-156f69184b4a", "delay_minutes": 60},
+        "12": {"user_id": "35167b66-83a3-436b-9b75-3e877bd2a6e9", "delay_minutes": 60},
+        "13": {"user_id": "49736b9c-be07-407d-bf83-2691653f8db4", "delay_minutes": 60},
+        "14": {"user_id": "592b8dde-da33-4771-97cc-03ed3d26c0c1", "delay_minutes": 60},
+        "15": {"user_id": "70ca1536-ab06-41ff-b51a-3c3fb8168d7e", "delay_minutes": 60},
+        "16": {"user_id": "0d6312f5-8778-4d8a-9790-cebec1aaa8f9", "delay_minutes": 60}
+
+
+    }
+}
+
